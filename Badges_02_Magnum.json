@@ -68,7 +68,7 @@
     {
       "id": "lang-de",
       "groupId": "language",
-      "name": "German",
+      "name": "Allemand",
       "pattern": "(?i)(?:\\blang(?:uage)?[\\s._-]*de\\b|\\bdeutsch\\b|\\bgerman\\b|\\balem[aá]n\\b|[-.\\[]de[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20DE.png",
       "tagColor": "#00000000",
@@ -81,7 +81,7 @@
     {
       "id": "lang-en",
       "groupId": "language",
-      "name": "English",
+      "name": "Anglais",
       "pattern": "(?i)(?:\\blang(?:uage)?[\\s._-]*en\\b|\\benglish\\b|\\bingl[eé]s\\b|[-.\\[]en[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20EN.png",
       "tagColor": "#00000000",
@@ -94,7 +94,7 @@
     {
       "id": "lang-es",
       "groupId": "language",
-      "name": "Spanish",
+      "name": "Espagnol",
       "pattern": "(?i)(?:\\blang(?:uage)?[\\s._-]*es\\b|\\bspanish\\b|\\bespa[nñ]ol\\b|\\bcastellano\\b|[-.\\[]es[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20ES.png",
       "tagColor": "#00000000",
@@ -107,8 +107,8 @@
     {
       "id": "lang-fr",
       "groupId": "language",
-      "name": "French",
-      "pattern": "(?i)(?:lang\\s*fr|french|fran[cç]ais|franc[eé]s|[-.\\[]fr[-.\\]])",
+      "name": "Français",
+      "pattern": "(?i)(?:lang\\s*fr|french|fran[cç]ais|franc[eé]s|true\\s*french|true\\.french|vff|[-.\\[]fr[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20FR.png",
       "tagColor": "#00000000",
       "borderColor": "#00000000",
@@ -120,7 +120,7 @@
     {
       "id": "lang-hi",
       "groupId": "language",
-      "name": "Hindi",
+      "name": "Indien",
       "pattern": "(?i)(?:lang\\s*hi|hindi|[-.\\[]hi[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20HI.png",
       "tagColor": "#00000000",
@@ -133,7 +133,7 @@
     {
       "id": "lang-it",
       "groupId": "language",
-      "name": "Italian",
+      "name": "Italien",
       "pattern": "(?i)(?:lang\\s*it|italian|italiano|[-.\\[]it[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20IT.png",
       "tagColor": "#00000000",
@@ -146,7 +146,7 @@
     {
       "id": "lang-ja",
       "groupId": "language",
-      "name": "Japanese",
+      "name": "Japonais",
       "pattern": "(?i)(?:\\blang(?:uage)?[\\s._-]*ja\\b|\\bjapanese\\b|\\bjapon[eé]s|[-.\\[]ja[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20JA.png",
       "tagColor": "#00000000",
@@ -159,7 +159,7 @@
     {
       "id": "lang-ko",
       "groupId": "language",
-      "name": "Korean",
+      "name": "Coréen",
       "pattern": "(?i)(?:lang\\s*ko|korean|coreano|kr|[-.\\[]ko[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20KO.png",
       "tagColor": "#00000000",
@@ -185,7 +185,7 @@
     {
       "id": "lang-pt",
       "groupId": "language",
-      "name": "Portuguese",
+      "name": "Portugais",
       "pattern": "(?i)(?:lang\\s*pt|portuguese|portugu[eê]s|brasileiro|pt-br|[-.\\[]pt[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20PT.png",
       "tagColor": "#00000000",
@@ -198,7 +198,7 @@
     {
       "id": "lang-ru",
       "groupId": "language",
-      "name": "Russian",
+      "name": "Russe",
       "pattern": "(?i)(?:lang\\s*ru|russian|ruso|[-.\\[]ru[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20RU.png",
       "tagColor": "#00000000",
@@ -211,7 +211,7 @@
     {
       "id": "lang-zh",
       "groupId": "language",
-      "name": "Chinese",
+      "name": "Chinois",
       "pattern": "(?i)(?:lang\\s*zh|chinese|chin[eé]s|mandarin|cn|[-.\\[]zh[-.\\]])",
       "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG%20ZH.png",
       "tagColor": "#00000000",
@@ -220,6 +220,54 @@
       "tagStyle": "filled",
       "isEnabled": true,
       "type": "filter"
+    },
+    {
+      "id": "lang-en-2",
+      "name": "VostFR",
+      "groupId": "language",
+      "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG VOSTFR 01.png",
+      "isEnabled": true,
+      "pattern": "(?i)(?:\\bvostfr\\b|\\bvost-fr\\b|\\bvost\\b|\\bsubfrench\\b|\\bsub\\.french\\b|\\bstfr\\b)",
+      "tagColor": "#00000000",
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+    },
+    {
+      "id": "lang-en-2-2",
+      "name": "VFQ",
+      "groupId": "language",
+      "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG VFQ.png",
+      "isEnabled": true,
+      "pattern": "(?i)(?:\\bvfq\\b|\\bquebec\\b|\\bcanadian\\b)",
+      "tagColor": "#00000000",
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+    },
+    {
+      "id": "b-y360j9",
+      "name": "VFI",
+      "groupId": "language",
+      "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG VFI 01.png",
+      "isEnabled": true,
+      "pattern": "(?i)(?:\\bvfi\\b|[-.\\[]vfi[-.\\]])",
+      "tagColor": "#00000000",
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
+    },
+    {
+      "id": "b-vx9t1q",
+      "name": "Multi",
+      "groupId": "language",
+      "imageURL": "https://raw.githubusercontent.com/VincentGrimond/Badges-Nuvio/main/Images/LANG Multi.png",
+      "isEnabled": true,
+      "pattern": "(?i)(?:\\bmulti\\b|\\bmultilanguage\\b|[-.\\[]multi[-.\\]])",
+      "tagColor": "#00000000",
+      "textColor": "#00000000",
+      "borderColor": "#00000000",
+      "tagStyle": "filled"
     },
     {
       "id": "4k-ultra-hd",
